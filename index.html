@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquim Bovinos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container--botao">
+                <label for="menu" class="container_rotulo">
+                    <span class="cabecalho_menu_hamburguer container_imagem"></span>
+                </label>
+            <ul class="lista-menu">
+            <li class="lista-menu-titulo">Categorias</li>
+            <li class="lista-menu-item">
+                 <a href="#" class="lista_menu-link">Comprar</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista_menu-link">Vender</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista_menu-link">Entre em contato</a>
+            </li>
+            </ul>
+            <img class="capa" src="img/capa.jpg" alt="logo">
+        </div>
+
+        <div class="container">
+        <a href="#"><img src="img/Compras.svg" alt="Compras" class="container_imagem"></a>
+        <a href="#"><img src="img/Usuarios.svg" alt="usuario" class="container_imagem"></a>
+
+</div>
+</header>
+<section class="banner">
+<h2 class="banner__titulo">Joaquim Agropecuária</h2>
+<p class="banner__texto">Veja algumas das ofertas anunciadas no nosso site, temos uma oferta que serve para você.
+</p>
+
+<input type="search" class="banner_pesquisa" placeholder="Pesquisar bovinos">
+</section>
+<section class="carrossel">
+<h2 class="carrossel_titulo">OFERTAS BOVINOS</h2>
+
+<!-- Slider main container -->
+<div class="carrossel_container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+<div class="swiper-wrapper">
+<!-- Slides -->
+<div class="swiper-slide"><img src="img/abeerden.jpg" alt="abeerden"></div>
+<div class="swiper-slide"><img src="img/novilhas.jpg" alt="novilhas"></div>
+<div class="swiper-slide"><img src="img/nelores.png" alt="nelores"></div>
+<div class="swiper-slide"><img src="img/bezerras.jpg" alt="bezerras"></div>
+
+...
+</div>
+             
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+                    
+<!-- If we need scrollbar -->
+<div class="swiper-scrollbar"></div>
+</div>
+
+<div class="card">
+    <!--1 linha-->
+    <div class="card_descricao">
+        <!--1 coluna-->
+        <div class="descricao">
+            <h3 class="descricao_titulo">BOVINOS+</h3>
+            <h2 class="descricao_titulo-2">Joaquim Agropecuária</h2>
+            <p class="descricao_texto">Vende-se bovinos das raças Nelores, Angus, Brangus, etc.</p>
+        </div>
+        <!--2 coluna-->
+        <img src="img/boi.jpg" alt="boi" class="descricao_imagem">
+    </div>
+
+    <!--2 linha-->
+    <div class="card_botoes">
+        <!--1 coluna-->
+        <ul class="botoes">
+            <li class="botoes_item"><img src="img/Usuarios.svg" alt="Usuarios"></li>
+            <li class="botoes_item"><img src="img/Compras.svg" alt="Compras"></li>
+        </ul>
+        <!--2 coluna-->
+        <a href="#" class="botoes_ancora">Saiba mais...</a>
+    </div>
+</div>
+</div>
+</section>
+
+   
+<section class="topicos">
+    <h2 class="topicos_titulo">Joaquim Agropecuária</h2>
+    <ul class="topicos_lista">
+        <li class="topicos_item">
+            <a href="#" class="topicos_link">Queijos</a>            
+        </li>
+        <li class="topicos_item">
+            <a href="#" class="topicos_link">Bovinos</a>            
+        </li>
+        <li class="topicos_item">
+            <a href="#" class="topicos_link">Cavalos</a>            
+        </li>
+        <li class="topicos_item">
+            <a href="#" class="topicos_link">Ovos</a>            
+        </li>
+    </ul>
+</section>
+
+
+<section class="contato">
+    <h2 class="contato_titulo">Agro é top</h2>
+    <p class="contato_texto">Descubra mais sobre Agropecuária</p>
+    <input type="email" placeholder="Fazer login com seu e-mail" class="contato_email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé_titulo">Joaquim</h2>
+    
+    <ul class="lista_rodapé">
+        <li class="lista_rodapé_titulo">Serviço</li>
+
+
+        <li class="lista_rodapé_item">
+            <img src="img/Caelum.png" alt="CasaDoCodigo">
+            <a href="#" class="lista_rodapé_link">Caelum</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/CasaDoCodigo.png" alt="CasaDoCodigo">
+            <a href="#" class="lista_rodapé_link">Joaquim Agro</a>
+        </li>
+    </ul>
+
+
+    <ul class="lista_rodapé">
+        <li class="lista_rodapé_titulo">Suporte</li>
+        <li class="lista_rodapé_item">
+            <img src="img/Alura.png" alt="Joaquim">
+            <a href="#" class="lista_rodapé_link">Joaquim</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/AluraEmpresas.png" alt="Empresas">
+            <a href="#" class="lista_rodapé_link">Empresas</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/AluraStart.png" alt="Iniciar">
+            <a href="#" class="lista_rodapé_link">Iniciar</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/AluraLatam.png" alt="Internacional">
+            <a href="#" class="lista_rodapé_link">Internacional</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/MusicDot.png" alt="Música">
+            <a href="#" class="lista_rodapé_link">Música</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/AluraLingua.png" alt="Línguas">
+            <a href="#" class="lista_rodapé_link">Línguas</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/PM3.png" alt="PM3">
+            <a href="#" class="lista_rodapé_link">MP3</a>
+        </li>
+    </ul>
+
+
+
+    <ul class="lista_rodapé">
+        <li class="lista_rodapé_titulo">Agropecuária</li>
+        <li class="lista_rodapé_item">
+            <img src="img/HipstersTech.png" alt="Tech">
+            <a href="#" class="lista_rodapé_link">Tech</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/GUJ.png" alt="Café">
+            <a href="#" class="lista_rodapé_link">Café</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/Scuba.png" alt="Estufa">
+            <a href="#" class="lista_rodapé_link">Estufa</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/Layers.png" alt="Suporte">
+            <a href="#" class="lista_rodapé_link">Suportes</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/LikeABoss.png" alt="Pecuária">
+            <a href="#" class="lista_rodapé_link">Pecuária</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/CarreiraSemFronteira.png" alt="Carreira">
+            <a href="#" class="lista_rodapé_link">Carreira</a>
+        </li>
+
+        <li class="lista_rodapé_item">
+            <img src="img/HipstersJobs.png" alt="Trabalhos">
+            <a href="#" class="lista_rodapé_link">Trabalhos</a>
+        </li>
+
+   
+    </ul>
+    
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+spaceBetween: 10,
+slidesPerView: 3,
+pagination: {
+el: '.swiper-pagination',
+type: 'bullets',
+},
+});
+
+</script>
+
+<div> 
+
+</div>
+
+</body>
+
+</html>

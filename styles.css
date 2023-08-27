@@ -1,0 +1,42 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodapé.css);
+
+
+:root {
+font-family: 'Roboto', sans-serif;
+--cor-de-fundo: #a18145;
+--branco: #FFFFFF;
+--verde: rgb(90, 165, 90);
+--fonte_principal: "Roboto";
+--verde2: rgb(16, 109, 8);
+}
+
+
+
+
+
+body {
+background-color: var(--verde2);
+font-family: var(--fonte_principal);
+font-size: 16px;
+font-weight: 400;
+}
+
+.capa{
+    width: 40%;
+    }
+
+    @media screen and (min-width: 1728px) {
+        .capa {
+            width: 15%;
+        }
+    }
+
+
+    @media screen and (min-width: 1024px) {
+       .capa { width: 20%;}
+    } 
